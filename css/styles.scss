@@ -1,0 +1,80 @@
+$soft-red: hsl(7, 99%, 70%);
+$yellow: hsl(51, 100%, 49%);
+$ddcyan: hsl(167, 40%, 24%); //graphic design text
+$darkBlue: hsl(198, 62%, 26%); //photography text
+$darkModerateCyan: hsl(168, 34%, 41%); //cyan
+
+// neutrals
+
+$darkDesatBlue: hsl(212, 27%, 19%);
+$veryDarkGrayBlue: hsl(213, 9%, 39%);
+$darkGrayBlue: hsl(232, 10%, 55%);
+$grayBlue: hsl(210, 4%, 67%);
+$white: hsl(0, 0%, 100%);
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  
+  font-size: 18px;
+  header{
+    background-image: url(/images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: "Barlow";
+    color: $white;
+    text-align: center;
+    h1{
+        font-size: 3.5rem;
+        margin: 150px;
+        font-family: 'Faunces';
+    }
+    .container {
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .logo {  
+          font-weight: bolder;
+        }
+        nav {
+          display: flex;
+          flex-direction: row;
+          ul {
+            list-style: none;
+            li {
+              display: inline;
+              margin-right: 30px;
+            }
+            a {
+              text-decoration: none;
+              color: $white;
+              font-size: 1rem;
+            }
+          }
+          .contact_btn{
+              background-color: $white;
+              border: 0;
+              width: 100px;
+              height: 50px;
+              border-radius: 30px;
+              font-family: 'Faunces';
+              font-weight: 900;
+              cursor: pointer;
+          }
+          .contact_btn:hover{
+              color: $white;
+              background-color: #6fcfff;
+          }
+        }
+      }
+  }
+}

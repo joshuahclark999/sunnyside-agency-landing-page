@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 18px;
+}
+
+body header {
+  background-image: url(/images/desktop/image-header.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-family: "Barlow";
+  color: white;
+  text-align: center;
+}
+
+body header h1 {
+  font-size: 3.5rem;
+  margin: 150px;
+  font-family: 'Faunces';
+}
+
+body header .container {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .container .logo {
+  font-weight: bolder;
+}
+
+body header .container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body header .container nav ul {
+  list-style: none;
+}
+
+body header .container nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+body header .container nav ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+body header .container nav .contact_btn {
+  background-color: white;
+  border: 0;
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  font-family: 'Faunces';
+  font-weight: 900;
+  cursor: pointer;
+}
+
+body header .container nav .contact_btn:hover {
+  color: white;
+  background-color: #6fcfff;
+}
+/*# sourceMappingURL=styles.css.map */
