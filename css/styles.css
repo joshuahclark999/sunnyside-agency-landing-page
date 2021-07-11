@@ -10,6 +10,10 @@ body {
   font-size: 18px;
 }
 
+body h3:hover {
+  cursor: pointer;
+}
+
 body header {
   background-image: url(/images/desktop/image-header.jpg);
   background-position: center;
@@ -85,5 +89,78 @@ body header .container nav .contact_btn {
 body header .container nav .contact_btn:hover {
   color: white;
   background-color: #6fcfff;
+}
+
+body .body {
+  font-family: 'Faunces';
+}
+
+body .body .yellow {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fad400;
+}
+
+body .body .yellow .yellow_content {
+  background-color: white;
+  text-align: left;
+  padding: 10%;
+  width: 50%;
+}
+
+body .body .yellow .yellow_content p {
+  margin: 20px 0 20px 0;
+  color: #818498;
+  font-family: 'Barlow';
+}
+
+body .body .yellow .yellow_content h3 {
+  -webkit-text-decoration: underline #fad400 3px;
+          text-decoration: underline #fad400 3px;
+}
+
+body .body .pink {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  background-color: #fe7867;
+}
+
+body .body .pink .pink_content {
+  background-color: white;
+  text-align: left;
+  padding: 10%;
+  width: 50%;
+}
+
+body .body .pink .pink_content p {
+  margin: 20px 0 20px 0;
+  color: #818498;
+  font-family: 'Barlow';
+}
+
+body .body .pink .pink_content h3 {
+  -webkit-text-decoration: underline #fe7867 3px;
+          text-decoration: underline #fe7867 3px;
+}
+
+body .body .blue {
+  width: 100%;
+}
+
+body .body .blue .cherry {
+  background-image: url(/images/desktop/image-graphic-design.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 50vh;
 }
 /*# sourceMappingURL=styles.css.map */

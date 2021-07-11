@@ -19,7 +19,9 @@ $white: hsl(0, 0%, 100%);
   margin: 0;
 }
 body {
-  
+  h3:hover{
+    cursor: pointer;
+  }
   font-size: 18px;
   header{
     background-image: url(/images/desktop/image-header.jpg);
@@ -76,5 +78,59 @@ body {
           }
         }
       }
+  }
+  .body{
+    font-family: 'Faunces';
+    .yellow{
+      width: 100%;
+      display: flex;
+      background-color: $yellow;
+      .yellow_content{
+        background-color: white;
+        text-align: left;
+        padding: 10%;
+        width: 50%;
+        p{
+          margin: 20px 0 20px 0;
+          color: $darkGrayBlue;
+          font-family: 'Barlow';
+        }
+        h3{
+          text-decoration: underline $yellow 3px;
+        }
+        
+      }
+    }
+    .pink{
+      width: 100%;
+      display: flex;
+      flex-direction: row-reverse;
+      background-color: $soft-red;
+      .pink_content{
+        background-color: white;
+        text-align: left;
+        padding: 10%;
+        width: 50%;
+        p{
+          margin: 20px 0 20px 0;
+          color: $darkGrayBlue;
+          font-family: 'Barlow';
+        }
+        h3{
+          text-decoration: underline $soft-red 3px;
+        }
+      }
+    }
+    .blue{
+      width: 100%;
+      .cherry{
+        background-image: url(/images/desktop/image-graphic-design.jpg);
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 50%;
+      height: 50vh;
+      }
+    }
   }
 }
